@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* About Content Section */
+  .about-content {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 1rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px;
+  }
+  
+  .about-content h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* About Subsection */
+  .about-subsection {
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: 1rem auto;
+    max-width: 800px;
+  }
+  
+  .about-subsection h2 {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-subsection p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-content, .about-subsection {
+      padding: 1.5rem 1rem;
+    }
+  
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    .btn-primary {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  
